@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Game.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>GAME</title>
+  </head>
+  <body>
+    <div id="game-info">
+      <p>Turn: <span id="turn-display"></span></p>
+      <p>info: <span id="info"></span></p>
+    </div>
+    <div class="dropPlace" id="gameboard"></div>
+    <div class="option">
+      <div id="submarine1" class="ship1 draggable" draggable="true"></div>
+      <div id="submarine2" class="ship2 draggable" draggable="true"></div>
+      <div id="submarine3" class="ship3 draggable" draggable="true"></div>
+      <div id="submarine4" class="ship4 draggable" draggable="true"></div>
+      <div id="submarine5" class="ship5 draggable" draggable="true"></div>
+    </div>
+    <div class="buttons">
+      <button id="flip">flip</button>
+      <button id="start">start</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

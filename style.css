@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Bruno Ace SC;
+}
+body {
+  background-color: rgb(245, 251, 253);
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+}
+#Ship {
+  margin-top: -100px;
+  margin-bottom: -50px;
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  font-size: 4em;
+}
+.start {
+  height: 50px;
+  width: 200px;
+  background-color: #62d0ffbb;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.start:hover {
+  background-color: #b1e8ff;
+  transition: 0.3s;
+}
+.start:active {
+  box-shadow: inset 6px 6px 10px 0px rgb(95, 207, 255);
+  transition: 0.3s;
+}
+.start:active p {
+  font-size: 12px;
+  transition: 0.3s;
+}
